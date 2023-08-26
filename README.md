@@ -6,16 +6,15 @@ Questions are generated from a combination range of numbers between 0 and 12 usi
 
 ## Requirements
 
-a. Create a program for practicing multiplication tables ✅
-b. Generate two random numbers between zero and 12 ✅
-c. Allow the user to input the product ✅
-d. Indicate whether the user was correct or incorrect ✅
-e. If the user was correct, generate two more numbers ✅
-f. Keep score: award one point for correct answers; subtract a point for incorrect answers ✅
-g. Add a timer. The goal is to achieve the highest score in one minute of play. Starting a new
-game resets the score to zero. ✅
-h. Add other operations (+, -, , ) ❌
-i. Track which number combinations have been shown. Ensure that all 225 pairs are guaranteed to be shown eventually. ✅
+1. Create a program for practicing multiplication tables ✅
+2. Generate two random numbers between zero and 12 ✅
+3. Allow the user to input the product ✅
+4. Indicate whether the user was correct or incorrect ✅
+5. If the user was correct, generate two more numbers ✅
+6. Keep score: award one point for correct answers; subtract a point for incorrect answers ✅
+7. Add a timer. The goal is to achieve the highest score in one minute of play. Starting a new game resets the score to zero. ✅
+8. Add other operations (+, -, , ) ❌
+9. Track which number combinations have been shown. Ensure that all 225 pairs are guaranteed to be shown eventually. ✅
 
 ### Assumptions
 
