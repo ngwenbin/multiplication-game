@@ -1,10 +1,12 @@
 # flashcard-game
 
-An Electron application with React and TypeScript
+An multiplication game built using Electron, React and TypeScript.
 
-## Recommended IDE Setup
-
-- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+Questions are generated from a combination range of numbers between 0 and 12
+using a backtracking algorithmn with shuffling. These questions are generated before
+the start of the game. For every correct answer, the first question is then popped
+off, and if the answer is wrong, the user will need to provide a correct answer
+to move.
 
 ## Project Setup
 
