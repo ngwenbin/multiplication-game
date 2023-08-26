@@ -24,7 +24,7 @@ const textTypeMapping: Record<TextTypes, string> = {
   subhead_medium: 'subhead-medium'
 }
 
-interface TextProps {
+export interface TextProps {
   children: React.ReactNode
   type?: TextTypes
   className?: string

@@ -1,0 +1,19 @@
+.quizFormContainer {
+  padding: 16px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quizInputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quizInputRemark {
+  margin-top: 8px;
+  color: #b2b1b2;
+}
