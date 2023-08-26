@@ -1,0 +1,50 @@
+.quizBaseInput {
+  font-size: 48px;
+  line-height: 60px;
+  border: none;
+  background-color: #fff;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 248px;
+}
+
+.quizInput {
+  border: none;
+  border-color: transparent;
+}
+
+.quizInputError {
+  border: 1px solid;
+  border-color: red;
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+@keyframes horizontal-shaking {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(5px);
+  }
+  50% {
+    transform: translateX(-5px);
+  }
+  75% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+input.horizontal-shaking {
+  animation: horizontal-shaking 0.35s 0.5s;
+}
