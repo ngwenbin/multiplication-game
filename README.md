@@ -2,11 +2,24 @@
 
 An multiplication game built using Electron, React and TypeScript.
 
-Questions are generated from a combination range of numbers between 0 and 12
-using a backtracking algorithmn with shuffling. These questions are generated before
-the start of the game. For every correct answer, the first question is then popped
-off, and if the answer is wrong, the user will need to provide a correct answer
-to move.
+Questions are generated from a combination range of numbers between 0 and 12 using a backtracking algorithmn with shuffling. These questions are generated before the start of the game. For every correct answer, the first question is then popped off, and if the answer is wrong, the user will need to provide a correct answer to move.
+
+## Requirements
+
+a. Create a program for practicing multiplication tables ✅
+b. Generate two random numbers between zero and 12 ✅
+c. Allow the user to input the product ✅
+d. Indicate whether the user was correct or incorrect ✅
+e. If the user was correct, generate two more numbers ✅
+f. Keep score: award one point for correct answers; subtract a point for incorrect answers ✅
+g. Add a timer. The goal is to achieve the highest score in one minute of play. Starting a new
+game resets the score to zero. ✅
+h. Add other operations (+, -, , ) ❌
+i. Track which number combinations have been shown. Ensure that all 225 pairs are guaranteed to be shown eventually. ✅
+
+### Assumptions
+
+1. Combinations for numbers ranging from 0 to 12, at a set of 2 pairs will only yield 78 pairs, not 225 pairs. Since this assignment was done during the weekend, there wasn't opportunity for clarification. Hence the assumption of 78 pairs was made for point i.
 
 ## Project Setup
 
