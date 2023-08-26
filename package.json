@@ -23,7 +23,9 @@
     "@electron-toolkit/preload": "^2.0.0",
     "@electron-toolkit/utils": "^2.0.0",
     "clsx": "^2.0.0",
-    "electron-updater": "^6.1.1"
+    "electron-store": "^8.1.0",
+    "electron-updater": "^6.1.1",
+    "react-router-dom": "^6.15.0"
   },
   "devDependencies": {
     "@electron-toolkit/eslint-config-prettier": "^1.0.1",
